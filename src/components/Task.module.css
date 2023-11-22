@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    margin-top: -1.9rem;
+}
+
+.inputTask {
+    background: var(--gray-500);
+    width: 39.875rem;
+    color: var(--gray-300);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--gray-700);
+}
+
+.inputTask:focus{
+    outline: none;
+    color: var(--gray-100);
+    border: 1px solid var(--purpleDark);
+}
+
+.form button[type=submit] {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: var(--blueDark);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 140%;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.form button[type=submit]:hover {
+    background: var(--blue);
+}
