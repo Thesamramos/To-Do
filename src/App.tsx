@@ -1,5 +1,5 @@
 import { Header } from './components/Header';
-import { Task } from './components/Task';
+import { FormTask } from './components/FormTask';
 
 import './global.css';
 
@@ -7,7 +7,7 @@ export function App() {
   return(
     <>
       <Header />
-      <Task />
+      <FormTask />
     </>
     
   )

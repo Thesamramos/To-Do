@@ -2,7 +2,7 @@ import styles from './Task.module.css';
 
 import plus from '../assets/plus.svg';
 
-export function Task() {
+export function FormTask() {
     return (
         <form className={styles.form}>
             <input 
