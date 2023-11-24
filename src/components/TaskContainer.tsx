@@ -1,3 +1,5 @@
+import { Task } from './Task';
+
 import styles from './TaskContainer.module.css';
 
 export function TaskContainer() {
@@ -14,7 +16,9 @@ export function TaskContainer() {
                 </div>
                 
             </div>
-            <div className={styles.taskContainer}></div>
+            <div className={styles.taskContainer}>
+                <Task />
+            </div>
         </div>
     )
 }
